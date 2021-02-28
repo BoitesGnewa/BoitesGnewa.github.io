@@ -1,0 +1,175 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+.container {
+    width: 1171px;
+    margin: 0 auto;
+
+}
+
+.header {
+
+background: #4dbcfd; 
+background: -moz-linear-gradient(-45deg,  #4dbcfd 0%, #2989d8 51%, #378fd9 100%); 
+background: -webkit-linear-gradient(-45deg,  #4dbcfd 0%,#2989d8 51%,#378fd9 100%); 
+background: linear-gradient(135deg,  #4dbcfd 0%,#2989d8 51%,#378fd9 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbcfd', endColorstr='#378fd9',GradientType=1 ); 
+padding-top: 62px;
+color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+margin-top: 150px;
+width: 565px;
+}
+
+.title {
+   font-size: 37px;
+   color: white;
+}
+
+.title span {
+    font-size: 59px;
+}
+
+.intro {
+    margin-top: 46px;
+    margin-bottom: 44px;
+    width: 401px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffd429;
+    color: black;
+    display: block;
+    width: 222px;
+    padding: 22px 0;
+    text-align: center;
+    font-weight: 900;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #e0b301; 
+}
+
+.desktop {
+    padding-top: 42px;
+    padding-bottom: 72px;
+}
+
+.reality {
+    padding-top: 109px;
+    padding-bottom: 119px;
+}
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.futurs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.futur-time {
+    width: 298px;
+    background: url(../img/icon1.png) no-repeat center top;    
+}
+
+.futur-title {
+padding-top: 107px;
+font-size: 19px;
+text-align: center;
+}
+
+.futur-text {
+    text-align: center;
+    margin-top: 7px;
+}
+
+.futur-travel {
+    background: url(../img/icon2.png) no-repeat center top;
+    width: 268px;
+}
+
+.futur-values {
+    background: url(../img/icon3.png) no-repeat center top;
+    width: 300px;
+}
+
+.dream {
+    padding-top: 103px;
+    padding-bottom: 102px;
+    background: #ecf3f8;
+}
+
+.form {
+    padding-top: 63px;
+
+}
+
+.input {  
+    width:340px;
+    height:48px;
+    border: 1px solid #bbbbbb;
+    font-size: 15px;
+    border-radius: 3px;
+    margin: auto;
+    display: block;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+.btn-form {
+    border: 0;
+    width:340px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 60px 0;
+    background-color: #164d7a;
+}
+
+.credits {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+
+    
+    
