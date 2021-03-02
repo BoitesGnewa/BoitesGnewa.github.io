@@ -102,7 +102,7 @@ width: 565px;
     margin-top: 70px;
 }
 
-.futur-time {
+.futur {
     width: 298px;
     background: url(../img/icon1.png) no-repeat center top;    
 }
@@ -170,6 +170,55 @@ text-align: center;
     text-align: center;
 }
 
+/*Responsive*/
+
+/* 992px - 1200*/
+@media screen and (max-width: 1200px){
+  .container {
+      width: 960px;
+  }
+  .wrapper{
+      flex-direction: column;
+  }
+  .offer{
+      width: 100%;
+  }
+  .intro {
+      width: auto;
+  }
+  .desktop{
+      display: block;
+      margin: 42px 0;
+  }
+  .futurs{
+      flex-direction:  column;
+  }
+  .futur {
+      display: block;
+      margin: auto;
+  }
+}
+
+/* 768px - 992*/
+@media screen and (max-width: 992px){
+    .container{
+        width: 720px;
+    }    
+}
+
+/* 576px - 768*/
+@media screen and (max-width: 768px){
+    .container{
+        width: 540px;
+    }
+}
+
+/* 0x - 576*/
+@media screen and (max-width: 576px){
+    .container{
+        width: 90%;
+    }   
+}
 
     
     
